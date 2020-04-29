@@ -70,4 +70,23 @@ the representation of data can be in many formats. like XML and Json
 ## cURL
 
 A command-line tool for calling URLs, which calls URLs and prints out the responses, 
+
 by using the ***curl <url_to_call>*** command
+
+## Link Browser
+
+A command-line based web browser displays web content in the CLI by 
+installing it and running the links command
+
+**$ sudo apt update**
++ "Sudo" means to run the following command as the administrator user.
+The command is run with what are called root-level privileges.
++ "apt" is short for "advanced package tool". This is a tool that's used to manage and install different software packages on our system.
++ "update" command, which means to get the very latest versions of the packages and the repositories.
+
+**$ sudo apt install links**
+
+to install a software package called "links".
+Links is a command-line based browser.
+
+**$ links**
