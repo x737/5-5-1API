@@ -1,35 +1,53 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+## What is API
 
-Welcome USER_NAME,
+Application Program Interface
+1. API is a public persona for an organization:
++ exposing assets, data or service for public consumption
++ allows organization to open up data for a third party
+2. API is designed to be directly cosumed by another piece of software somewhere in the network
+3. API is the contract between organization (service provider) and another software (service consumer)
++ programs are built on top of that contract
++ contracts increases influences and usage
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## API Economy
+ 
+API allows organizations to interact and share information with others
 
-## Gitpod Reminders
+more than 15,000 APIs offered by firms today
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Uber was quickly able to connect Google Maps, Braintree for payment, Twilio for SMS, using a little piece of codes called 
+api's and in effect build a brand new product, almost entirely consisting of other people's products and a little clever 
 
-`python3 -m http.server`
+## API types
 
-A blue button should appear to click: *Expose*,
+1. Private/Internal API - Intranet
 
-Another blue button should appear to click: *Open Browser*.
+API that runs on an intranet within an organization so companies use private
+api's to make internal functions of a business run more smoothly and
+accelerate innovation. like Amazon Model
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+2. Partner API - Extranet
 
-A blue button should appear to click: *Expose*,
+Many companies will offer partner api's that are open beyond the
+organization. The services are not entirely exposed publicly and they do
+retain some security and data control but business-to-business relationships
+can produce large revenue and mutually beneficial data exchanges by spreading
+assets between each other. 
 
-Another blue button should appear to click: *Open Browser*.
+3.  Public/Open API - Internet
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+Companies use public APIs to selectively expose the very same services, content or
+data a company use itself. Platform can offer sth of value to those outside the organization.
+Inspire and cultivate apps from newfound developer communities. The faster the data can be accessed and processed the faster its
+value can be extracted and gained.
 
-## Updates Since The Instructional Video
+## API business Models
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+Appropriate for a given API depends on the goals of the a
+API provider which may include monetization, brand awareness, business
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+These models include but are not limited to f
++ free api
++ developer pays api
++ developer gets paid
++ indirect
