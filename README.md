@@ -51,3 +51,23 @@ These models include but are not limited to f
 + developer pays api
 + developer gets paid
 + indirect
+
+## REST Architecture
+
+REST stands for representational
+state transfer it's an architectural style based on the notions of state and how that state is represented. 
+
+the representation of data can be in many formats. like XML and Json 
+
+### REST Architecture has 6 constrains
++ Uniform Interface
++ stateless
++ client-server
++ cacheable
++ layered system
++ code on demand
+
+## cURL
+
+A command-line tool for calling URLs, which calls URLs and prints out the responses, 
+by using the ***curl <url_to_call>*** command
