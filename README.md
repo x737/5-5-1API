@@ -90,3 +90,5 @@ to install a software package called "links".
 Links is a command-line based browser.
 
 **$ links**
+
+then you go to a command-line based browser, purely command-line without graphics
