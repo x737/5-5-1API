@@ -99,9 +99,11 @@ JSON can be read from an API and manipulated using any programming language
 
 The combination of cURL and API data structures allows us to access and handle API data using cURL
 by calling an API from a cURL command.
-**$ curl https://swapi.dev/api/** ,JSON respond back all properties
-**$ curl https://swapi.dev/api/people/** ,JSON respond back all of the people in the film
-**$ curl https://swapi.dev/api/people/1/** ,JSON respond back Luke Skywalker result
+
+**$ curl https://swapi.dev/api/** , JSON respond back all properties
+**$ curl https://swapi.dev/api/people/** , JSON respond back all of the people in the film
+**$ curl https://swapi.dev/api/people/1/** , JSON respond back Luke Skywalker result
 
 to make the result beautifully formated, we use the pipe, which will be
+
 **$ curl https://swapi.dev/api/people/1/ | python3 -m json.tool** 
